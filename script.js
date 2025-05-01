@@ -9,7 +9,7 @@ for (let i = 0; i < progressLinks.length; i++) {
         <h2 class="text-xl font-semibold ">Day ${i + 1}</h2>
         <pre>${progressLinks[i].progress}</pre>
         <button class="btn">
-            <a href="${progressLinks[i].link}" target="_blank">View Progress</a>
+            <a href="${progressLinks[i].link}" target="_blank">View Post</a>
         </button>
     `
     Days.appendChild(day)
