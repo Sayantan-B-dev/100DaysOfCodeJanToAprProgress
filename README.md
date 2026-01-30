@@ -1,52 +1,125 @@
-# 🚀 100 Days of Code Challenge
+# 100 Days of Code Progress Tracker
 
-**Started:** January 9, 2025  
-**Ended:** April 30, 2025  
-**Hiatus:** 11 days break for college exams  
-**Status:** ✅ Completed with consistency and passion!
+This is a lightweight, static web app that visually tracks my complete 100 Days of Code journey. Instead of keeping progress scattered across social posts, everything is structured, rendered dynamically, and accessible from a single page.
 
----
-
-## 📅 Progress Summary
-
-> Here's a log of my learning journey—projects built, courses completed, and skills sharpened.
-
-### ✅ Day 1
-**Project:** Make it good HTML  
-📎 [Tweet](https://x.com/SayantanB_1337/status/1877334649887715647)
-
-### ✅ Day 2  
-**Project:** Simon Game Project  
-📎 [Tweet](https://x.com/SayantanB_1337/status/1877732017804054944)
-
-### ✅ Day 3  
-**Progress:** Finished 2 more modules from Colt Steele's course  
-📎 [Tweet](https://x.com/SayantanB_1337/status/1878137535244730429)
-
-### ✅ Day 4  
-**Project:** Deployed a new React Todo App  
-📎 [Tweet](https://x.com/SayantanB_1337/status/1880314862628401329)
-
-<!-- Add more days in the same format if available -->
+The project reads daily progress data from a JavaScript file and renders each day as a card with a short summary and a direct link to the original post.
 
 ---
 
-## 🛠️ Tech & Tools Used
+## Timeline
 
-- HTML, CSS, TailwindCSS
-- JavaScript, EJS
-- React.js, Node.js, Express.js, MongoDB, React Native
-- Git & GitHub, MongoDB Atlas, Render, Vercel
-- VS Code
-- More npm packages: helmet, joi, method-override, connect-flash, @maptiler/client, passport, sanitize-html, multer, cloudinary
----
+- Start date: January 9, 2025  
+- End date: April 30, 2025  
+- Breaks: 11 days due to college exams  
+- Status: Completed  
 
-## 🌐 Let's Connect
-
-[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/SayantanB_1337)
-
-> Thank you for reading! This journey was more than just 100 days — it was about building consistency, learning every day, and growing as a developer.
+Every single day entry is preserved exactly as logged during the challenge.
 
 ---
 
-> **"Code every day. Build something small. Learn something big."**
+## What this project does
+
+- Dynamically renders all 100 days from a single data source
+- Displays daily progress in a clean card layout
+- Links each day to the original post for proof and context
+- Uses zero backend and zero build tools
+- Loads instantly and works offline once opened
+
+This is both a personal archive and a consistency proof.
+
+---
+
+![](./sample.png)
+
+---
+
+## Tech stack
+
+- HTML5
+- CSS3 (custom styling, hover effects, animations)
+- JavaScript ES Modules
+- Tailwind via CDN for utility classes
+
+No frameworks, no bundlers, no dependencies to install.
+
+---
+
+## Project structure
+
+```text
+├── index.html        # Main page
+├── script.js         # DOM rendering logic
+├── data.js           # 100 days progress dataset
+├── style.css         # Custom styling and animations
+└── README.md
+````
+
+---
+
+## How it works
+
+* `data.js` exports an array of objects
+  Each object contains:
+
+  * progress text
+  * link to the original post
+
+* `script.js` imports this data and:
+
+  * loops through all entries
+  * creates a card for each day
+  * injects content into the DOM dynamically
+
+* `index.html` provides the layout and loads everything as ES modules
+
+No manual HTML updates are needed when adding or editing days.
+
+---
+
+## Running locally
+
+No setup required.
+
+1. Clone the repository
+
+   ```bash
+   git clone <repo-url>
+   ```
+2. Open the folder
+3. Open `index.html` in any modern browser
+
+That’s it.
+
+---
+
+## Why this exists
+
+This project exists to document discipline, not just output.
+
+The goal was not to build something complex, but to:
+
+* show consistency
+* track learning honestly
+* create a permanent, structured log
+* practice clean JavaScript and DOM manipulation
+
+It also serves as a reference point to measure growth over time.
+
+---
+
+## Notes
+
+* All progress text is intentionally unedited to reflect real daily updates
+* Some days repeat links or focus on theory by design
+* Styling prioritizes readability over minimalism
+
+---
+
+## Author
+
+Sayantan
+Twitter/X: [https://x.com/SayantanB_1337](https://x.com/SayantanB_1337)
+
+---
+
+Code every day. Build small. Stay consistent.
